@@ -28,7 +28,7 @@ python pacman.py -l tinyMaze -p SearchAgent
 python pacman.py -l mediumMaze -p SearchAgent
 python pacman.py -l bigMaze -z .5 -p SearchAgent
 ```
-6. Q2: BFS (add --framtime=0 at the end of the line to speed up)
+6. Q2: BFS (add `--framtime=0` at the end of the line to speed up)
 ```
 python pacman.py -l mediumMaze -p SearchAgent -a fn=bfs
 python pacman.py -l bigMaze -p SearchAgent -a fn=bfs -z .5
