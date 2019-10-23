@@ -300,7 +300,7 @@ class CornersProblem(search.SearchProblem):
         "*** YOUR CODE HERE ***"
         self.costFn = lambda x, y: 1
         self.cornerVisited = [False, False, False, False]
-        self.startState = (self.startingPosition, self.cornerVisited)
+        self.startState = (self.startingPosition, self.cornerVisited)          
 
     def getStartState(self):
         "Returns the start state (in your state space, not the full Pacman state space)"
@@ -411,8 +411,6 @@ def cornersHeuristic(state, problem):
         heuristicSum += distance
         currentPosition = corner
         cornerNotVisited.remove(corner)
-
-
     return heuristicSum  # 0 is Default to trivial solution
 
 
