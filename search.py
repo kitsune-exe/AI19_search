@@ -152,7 +152,6 @@ def aStarSearch(problem, heuristic=nullHeuristic):
     "Search the node that has the lowest combined cost and heuristic first."
     "*** YOUR CODE HERE ***"
     # 21/10/2019
-    from game import Directions
     Fringe = util.PriorityQueue()
     Visited = []
     Fringe.push((problem.getStartState(), [], 0), 
