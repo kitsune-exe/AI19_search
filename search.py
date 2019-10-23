@@ -174,7 +174,7 @@ def aStarSearch(problem, heuristic=nullHeuristic):
         (state, action, cost) = Fringe.pop()
     return action
 
-    #util.raiseNotDefined()
+    util.raiseNotDefined()
 
 
 # Abbreviations
